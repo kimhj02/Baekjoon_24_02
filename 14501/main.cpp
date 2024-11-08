@@ -17,7 +17,7 @@ int main(void)
     vector<Work> works(case_num + 1);
     vector<int> dp(case_num + 1, 0);
 
-    for (int i = 1; i <= case_num; i++)
+    for (int i = 1; i <= case_num; i++) //1
     {
         cin >> works[i].day >> works[i].money;
     }
