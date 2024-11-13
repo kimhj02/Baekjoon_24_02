@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int num, kilo;
-    cin >> num >> kilo; // 물건의 개수(num)와 배낭의 최대 무게(kilo)를 입력받음
+    cin >> num >> kilo; // 물건의 개수와 들고갈 수 있는 무게의 최대치를 입력
 
     vector<int> weights(num + 1, 0); // 각 물건의 무게를 저장하는 배열, 인덱스 1부터 사용
     vector<int> values(num + 1, 0); // 각 물건의 가치를 저장하는 배열, 인덱스 1부터 사용
